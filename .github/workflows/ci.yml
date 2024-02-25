@@ -1,5 +1,5 @@
 
-name: Algorithms
+name: Linux/MacOS CI
 
 on:
   push:
