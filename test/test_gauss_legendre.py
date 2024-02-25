@@ -2,7 +2,7 @@ import unittest
 
 import numpy as np
 
-from algorithms.gauss_legendre_quadrature import gauss_legendre
+from algorithms.gauss_legendre import gauss_legendre
 
 
 class TestGaussLegendre(unittest.TestCase):
