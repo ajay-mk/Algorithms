@@ -3,7 +3,6 @@ The Gauss-Legendre quadrature formula is an accurate method for numerical integr
 particularly for smooth functions
 https://en.wikipedia.org/wiki/Gauss–Legendre_quadrature
 """
-
 import numpy as np
 
 
