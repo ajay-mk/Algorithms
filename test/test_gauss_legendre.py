@@ -3,6 +3,7 @@ import unittest
 
 from algorithms.gauss_legendre_quadrature import gauss_legendre
 
+
 class TestGaussLegendre(unittest.TestCase):
     def test_gauss_legendre_2(self):
         x, w = gauss_legendre(2, 0, 1)
@@ -17,6 +18,7 @@ class TestGaussLegendre(unittest.TestCase):
         expected_w = np.array([0.23692689, 0.47862867, 0.56888889, 0.47862867, 0.23692689])
         self.assertTrue(np.allclose(x, expected_x))
         self.assertTrue(np.allclose(w, expected_w))
+
 
 if __name__ == '__main__':
     unittest.main()

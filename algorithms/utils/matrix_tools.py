@@ -33,7 +33,7 @@ def is_symmetric(a, tol=1e-10):
     Returns:
     bool: True if the matrix is symmetric within the given tolerance, False otherwise.
     """
-    return np.all(np.abs(a-a.T) < tol)
+    return np.all(np.abs(a - a.T) < tol)
 
 
 def np_diag(mat, n_roots=3):
@@ -49,4 +49,3 @@ def np_diag(mat, n_roots=3):
            and the second array contains the corresponding eigenvectors. Only the first 'n_roots' roots are returned.
     """
     return np.linalg.eig(mat)[0][:n_roots], np.linalg.eig(mat)[1][:, :n_roots]
-
