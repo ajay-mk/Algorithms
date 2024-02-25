@@ -2,8 +2,7 @@ import numpy as np
 import unittest
 import sys
 
-sys.path.append('Gauss_Legendre_Quadrature')
-
+sys.path.append('gauss_legendre_quadrature')
 from gauss_legendre import gauss_legendre
 
 class TestGaussLegendre(unittest.TestCase):
